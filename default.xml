@@ -5,10 +5,15 @@
            fetch="https://android.googlesource.com/" />
   <remote  name="x86"
            fetch="." />
+  <remote name="svmp"
+          fetch="https://github.com/SVMP/" />
   <default revision="refs/tags/android-4.4.4_r2.0.1"
            remote="aosp"
            sync-c="true"
            sync-j="4" />
+  <!-- SVMP -->
+  <project path="external/svmp/svmpd" remote="svmp" revision="refs/tags/svmp-2.0.0" name="android_external_svmp_eventserver" />
+  <project path="external/svmp/svmp-protocol-def" remote="svmp" revision="refs/tags/svmp-2.0.0" name="svmp-protocol-def" />
 
   <!-- from x86 port repositories -->
   <project path="build" name="platform/build" groups="pdk" remote="x86" revision="kitkat-x86" >
