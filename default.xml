@@ -4,7 +4,7 @@
   <remote  name="aosp"
            fetch="https://android.googlesource.com/" />
   <remote  name="x86"
-           fetch="git://git.code.sf.net/p/android-x86/" />
+           fetch="http://git.code.sf.net/p/android-x86/" />
   <remote name="svmp"
           fetch="https://github.com/SVMP/" />
   <remote name="sense"
