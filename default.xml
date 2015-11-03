@@ -8,7 +8,7 @@
   <remote name="svmp"
           fetch="https://github.com/SVMP/" />
   <remote name="sense"
-          fetch="https://github.com/nctusenselab" />
+          fetch="https://github.com/nctusenselab/" />
 
   <default revision="refs/tags/android-4.4.4_r2.0.1"
            remote="aosp"
