@@ -26,6 +26,7 @@
   <project path="bionic" name="platform/bionic" groups="pdk" remote="x86" revision="kitkat-x86" />
   <project path="bootable/newinstaller" name="platform/bootable/newinstaller" remote="x86" revision="kitkat-x86" />
   <project path="dalvik" name="platform/dalvik" remote="x86" revision="kitkat-x86" />
+  <project path="device/sense/svmp" name="device_sense_svmp" groups="pdk" remote="sense" revision="master" />
   <project path="device/generic/common" name="device/generic/common" groups="pdk" remote="x86" revision="kitkat-x86" />
   <project path="device/generic/x86" name="device/generic/x86" groups="pdk" remote="x86" revision="kitkat-x86" />
   <project path="external/alsa-lib" name="platform/external/alsa-lib" remote="x86" revision="kitkat-x86" />
