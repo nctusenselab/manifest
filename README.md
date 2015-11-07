@@ -15,7 +15,7 @@ $ docker run -ti -v=`pwd`:/root/android/ android-x86-kitkat-test1 bash
 ## Build android x86 with SVMP support
 ```
 $ . build/envsetup.sh
-$ lunch android_x86-eng
+$ lunch sense_svmp-eng
 $ m -jX iso_img
 ```
 
