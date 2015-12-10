@@ -15,7 +15,7 @@
            sync-c="true"
            sync-j="4" />
   <!-- SVMP -->
-  <project path="external/svmp/svmpd" remote="svmp" revision="refs/tags/svmp-2.0.0" name="android_external_svmp_eventserver" />
+  <project path="external/svmp/svmpd" remote="sense" revision="master" name="android_external_svmp_eventserver" />
   <project path="external/svmp/svmp-protocol-def" remote="svmp" revision="refs/tags/svmp-2.0.0" name="svmp-protocol-def" />
 
   <!-- from x86 port repositories -->
