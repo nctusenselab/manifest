@@ -22,7 +22,7 @@
   <project path="build" name="android_build" groups="pdk" remote="sense" revision="master" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
-  <project path="kernel" name="kernel/common" remote="x86" revision="android-3.18" />
+  <project path="kernel" name="kernel/common" remote="x86" revision="837bc3dc713b2a876445614333cf844d6a5c4303" upstream="kernel-4.0" />
   <project path="bionic" name="platform/bionic" groups="pdk" remote="x86" revision="kitkat-x86" />
   <project path="bootable/newinstaller" name="platform/bootable/newinstaller" remote="x86" revision="kitkat-x86" />
   <project path="dalvik" name="platform/dalvik" remote="x86" revision="kitkat-x86" />
