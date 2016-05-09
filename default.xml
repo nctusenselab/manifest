@@ -14,11 +14,10 @@
            remote="aosp"
            sync-c="true"
            sync-j="4" />
-  <!-- SVMP -->
+  <!-- SENSE modification -->
   <project path="external/svmp/svmpd" remote="sense" revision="master" name="android_external_svmp_eventserver" />
   <project path="external/svmp/svmp-protocol-def" remote="sense" revision="master" name="svmp-protocol-def" />
 
-  <!-- SENSE modification -->
   <project path="build" name="android_build" groups="pdk" remote="sense" revision="master" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
